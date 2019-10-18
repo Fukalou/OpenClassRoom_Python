@@ -1,3 +1,7 @@
+# -*-coding:UTF-8 -*
+
+import os
+
 annee = input("Saisissez une année : ")
 annee = int(annee)
 
@@ -24,3 +28,5 @@ else:
 #     print("L'année ", annee, " est bissextile !")
 # else:
 #     print("L'année ", annee, " n'est pas bissextile !")
+
+os.system("pause")
