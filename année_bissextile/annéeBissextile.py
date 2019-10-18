@@ -3,7 +3,12 @@
 import os
 
 annee = input("Saisissez une année : ")
-annee = int(annee)
+
+try:
+    annee = int(annee)
+except:
+    print("Erreur lors de la conversion de l'année (un nombre est attendu) !")
+
 
 if annee % 400 == 0:
     bissextile = True
